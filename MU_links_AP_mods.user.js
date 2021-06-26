@@ -4,7 +4,7 @@
 // @include        http://www.mangaupdates.com/series.html?id=*
 // @include        https://www.mangaupdates.com/series.html?id=*
 // @grant          none
-// @version        v1.8
+// @version        1.8
 // @author         anan377          
 // @description    Adds external links section to MU's series info page, with Anime-Planet, MAL, MangaDex, and Anilist. Modified by kpossibles for A-P mods.
 // ==/UserScript==
