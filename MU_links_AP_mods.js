@@ -8,6 +8,7 @@
 // @description    Adds external links section to MU's series info page, with Anime-Planet, MAL, MangaDex, and Anilist. Modified by kpossibles for A-P mods.
 // ==/UserScript==
 
+// original: https://greasyfork.org/en/scripts/39045-mangaupdates-external-links2
 
 function getElementByClassName(elementType, className, src)
 {
