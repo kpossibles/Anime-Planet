@@ -5,7 +5,7 @@
 // @include        https://www.mangaupdates.com/series.html?id=*
 // @grant          none
 // @version        v1.7
-// @description    Adds external links section to MU's series info page, with Anime-Planet, MAL, MangaDex, and Anilist.
+// @description    Adds external links section to MU's series info page, with Anime-Planet, MAL, MangaDex, and Anilist. Modified by kpossibles for A-P mods.
 // ==/UserScript==
 
 
@@ -71,6 +71,7 @@ pageAdressEnding.push("");
 // MangaDex link
 pageNames.push("MangaDex");
 //pageAdressBeginning.push("https://mangadex.org/?page=search&title=");
+//new MangaDex search query
 pageAdressBeginning.push("https://mangadex.org/titles#");
 searchName.push(encodeURIComponent(title));
 pageAdressEnding.push("");
