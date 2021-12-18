@@ -72,7 +72,7 @@ pageAdressEnding.push("");
 pageNames.push("MangaDex");
 //pageAdressBeginning.push("https://mangadex.org/?page=search&title=");
 //new MangaDex search query
-pageAdressBeginning.push("https://mangadex.org/titles#");
+pageAdressBeginning.push("https://mangadex.org/titles?q=");
 searchName.push(encodeURIComponent(title));
 pageAdressEnding.push("");
 
