@@ -4,7 +4,7 @@
 // @include        http://www.mangaupdates.com/series.html?id=*
 // @include        https://www.mangaupdates.com/series.html?id=*
 // @grant          none
-// @version        1.8
+// @version        1.81
 // @author         anan377          
 // @description    Adds external links section to MU's series info page, with Anime-Planet, MAL, MangaDex, and Anilist. Modified by kpossibles for A-P mods.
 // ==/UserScript==
@@ -38,8 +38,8 @@ function redirect(link)
 }
 
 var title = document.getElementsByClassName("releasestitle tabletitle")[0].innerHTML;
-var table = document.getElementsByClassName("col-6 p-2 text")[0];
-var lastTableElement = table.children[39];
+var table = document.getElementsByClassName("col-6 p-2 text")[1]; // 0 = left column, 1 = right column
+var lastTableElement = table.children[0]; // choose row to position Links vertically
 var adsCat = document.evaluate("/html/body/div/table/tbody/tr[3]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table[2]/tbody/tr/td/div/div[2]/div/div[27]", document, null, XPathResult.ANY_TYPE, null).iterateNext();
 var linksCat = document.createElement('div');
 linksCat.className = "sCat";
