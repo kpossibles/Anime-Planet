@@ -3,6 +3,8 @@
 // @namespace      https://greasyfork.org/en/users/126394-anan377
 // @include        http://www.mangaupdates.com/series.html?id=*
 // @include        https://www.mangaupdates.com/series.html?id=*
+// @include        http://www.mangaupdates.com/series/*
+// @include        https://www.mangaupdates.com/series/*
 // @grant          none
 // @version        1.81
 // @author         anan377          
